@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "",
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "format": "prettier -w src",
+    "tc": "tsc --noEmit"
   },
   "type": "module",
   "keywords": [],
