@@ -6,8 +6,9 @@ Template for TypeScript Project
 
 - TypeScript
 - Jest
-- Lint-staged, with Eslint & Prettier
+- Lint-staged via husky, with Eslint & Prettier
 - ESM
+- VSCode config (auto format on save, auto organize imports)
 
 ## Commands
 
