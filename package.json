@@ -4,13 +4,12 @@
   "description": "",
   "main": "src/main.ts",
   "scripts": {
-    "dev": "",
+    "dev": "tsx --watch src/main.ts",
     "test": "jest",
     "prepare": "husky install",
     "format": "prettier -w src",
     "tc": "tsc --noEmit"
   },
-  "type": "module",
   "keywords": [],
   "author": "suica",
   "license": "ISC",
@@ -30,6 +29,7 @@
     "lint-staged": "^15.2.0",
     "prettier": "^3.1.1",
     "ts-jest": "^29.1.1",
+    "tsx": "^4.6.2",
     "typescript": "^5.3.3"
   },
   "lint-staged": {
