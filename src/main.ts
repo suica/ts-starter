@@ -1,4 +1,4 @@
-import { cloneDeep } from 'lodash';
+import { cloneDeep } from "lodash";
 export function myClone<T>(obj: T): T {
-    return cloneDeep(obj);
+  return cloneDeep(obj);
 }
