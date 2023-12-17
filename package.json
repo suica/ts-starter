@@ -5,6 +5,7 @@
   "main": "src/main.ts",
   "scripts": {
     "dev": "tsx --watch src/main.ts",
+    "build": "tsc -b tsconfig.build.json",
     "test": "jest",
     "prepare": "husky install",
     "format": "prettier -w src",
